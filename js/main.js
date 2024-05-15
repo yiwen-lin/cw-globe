@@ -38,16 +38,16 @@ $(document).ready(function(){
     SCROLL TO TOP
   --------------------------------------------- */
 	// hide #back-top first
-	$("#back-top").hide();
+	// $("#back-top").hide();
 			
 	// fade in #back-top
 	$(function () {
 		windowT.scroll(function () {
-			if ($(this).scrollTop() > 100) {
-        $('#back-top').fadeIn();
-			} else {
-				$('#back-top').fadeOut();
-			}
+			// if ($(this).scrollTop() > 100) {
+      //   $('#back-top').fadeIn();
+			// } else {
+			// 	$('#back-top').fadeOut();
+			// }
     });
 
     // scroll body to 0px on click
