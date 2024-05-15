@@ -531,7 +531,7 @@ function initLeftMenu(){
   WOW ANIMATE
 --------------------------------------------- */
 function initWow(){
-  var wow = new WOW( { mobile: false, } );
+  var wow = new WOW( { mobile: true, } );
   wow.init();
 }
 

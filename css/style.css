@@ -7727,11 +7727,11 @@ h2.portfolio-timeline-title {
 *******************************************************************************/
 @media (max-width: 991px) {
 
-  .wow {
+  /* .wow {
     visibility: visible !important;
     -webkit-animation: none !important;
             animation: none !important;
-  }
+  } */
   .hide-max-960 {
 		display:none;
 	}  
