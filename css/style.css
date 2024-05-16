@@ -278,7 +278,7 @@ body {
   padding: 0;
   vertical-align: baseline;
 	font-size: 18px;
-	line-height: 30px;
+	line-height: 28px;
 	font-family: 'Open Sans', "Noto Sans TC", sans-serif; 
 	font-weight: normal;
 	color: #333;
@@ -1153,7 +1153,7 @@ support for no js
 	padding-bottom:60px;
 }
 .fes4-box{
-  margin-bottom:50px;
+  margin-bottom:30px;
 }
 .fes4-title-cont {
   position: relative;
@@ -11299,13 +11299,17 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
   }
 }
 
-.parent {
+.parent-align-items {
   display: flex;
-  /* 水平置中 */
-  justify-content: center;    
   /* 垂直置中 */
   align-items: center;   
   flex-wrap: wrap;     
+}
+.parent-justify {
+  display: flex;
+  /* 水平置中 */
+  justify-content: center;     
+  flex-wrap: wrap;   
 }
 
 #speaker {
@@ -11347,6 +11351,9 @@ a.speaker-link {
   text-align: center;
   font-weight: 600;
 }
+.sales-txt {
+  min-height: 120px;
+}
 .sales-area {
   text-align: center;
   font-weight: 600;
@@ -11354,4 +11361,9 @@ a.speaker-link {
 }
 .sales-area span {
   border-bottom: 1px solid;
+}
+@media only screen and (max-width: 768px){
+  .sales-txt {
+    min-height: auto;
+  }
 }
