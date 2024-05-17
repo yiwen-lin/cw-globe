@@ -11313,7 +11313,7 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
   flex-wrap: wrap;   
 }
 
-#speaker {
+#speaker-block {
   background: linear-gradient(to bottom,  #eb8ef0 0%,#fdcfff 100%); 
 }
 .gradient-bg2 {
