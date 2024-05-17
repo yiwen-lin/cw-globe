@@ -2689,7 +2689,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
 }
 @media only screen and (max-width: 768px){
   .sm-cont-middle {
-    padding-bottom: 45%;
+    padding-bottom: 40%;
   }
   .sub-title {
     text-align: center;
