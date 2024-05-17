@@ -2620,8 +2620,9 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
   background-repeat: no-repeat;
 }
 .sm-video-bg {
-  background-image: url(../images/cw/op-bg.jpg);
-  background-position: 50% 0px;
+  background-image: url(../images/cw/0-op.jpg);
+  /* background-position: 50% 0px; */
+  background-position: 50% bottom;
   background-size:cover;
   overflow: hidden;
   position:relative;
@@ -2640,7 +2641,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
 @media only screen and (max-width: 767px){
   .sm-video-bg {
     background-image: url(../images/cw/op-bg-mb.jpg);
-    background-position: 30% 0px;
+    background-position: 30% bottom;
     background-size:cover;
   }
   .sm-content-cont {
@@ -11279,7 +11280,7 @@ ul#flickr-feeds li a, ul#flickr-sfeeds li a img {
 ***************************************************/
 
 .op-title {
-  width: 500px;
+  width: 450px;
 }
 .bn-img-pc {
   display: block;
