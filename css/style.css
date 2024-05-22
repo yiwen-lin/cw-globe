@@ -11344,7 +11344,7 @@ a.speaker-link {
   }
 }
 .sales-poto img {
-  width: 210px;
+  width: 240px;
   margin:auto;
   border-radius: 50%;
 }
@@ -11359,6 +11359,7 @@ a.speaker-link {
   text-align: center;
   font-weight: 600;
   color: #1F287E;
+  font-size: 22px;
 }
 .sales-area span {
   border-bottom: 1px solid;
