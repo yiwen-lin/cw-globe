@@ -1094,7 +1094,7 @@ support for no js
 }
 .fes2-main-text-cont {
   margin: 0 auto;
-  padding: 145px 50px 140px 50px;
+  padding: 125px 50px 120px 50px;
   max-width:500px; 
 }
 .fes2-text-cont{
@@ -6065,7 +6065,7 @@ a:focus {
 	text-decoration:none !important;
 }
 a:hover, a:focus {
-  color: #97999c;
+  color: #20287e;
   text-decoration: none;
   -webkit-transition: all .3s ease 0s;
   -o-transition: all .3s ease 0s;
