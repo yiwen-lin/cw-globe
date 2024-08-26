@@ -2270,7 +2270,16 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
   background-size: cover;
 }
 .video-ads-bg1 {
-  background:#2c2c2c url(../images/cw/video-1.jpg);
+  background:#2c2c2c url(../images/cw/video1.jpg);
+  background-size: cover;
+}
+.video-ads-bg2 {
+  background:#2c2c2c url(../images/cw/video2.jpg);
+  background-size: cover;
+}
+.video-ads-bg3 {
+  background:#2c2c2c url(../images/cw/video3.jpg);
+  background-size: cover;
 }
 .video-ads-text-cont {
   margin:0 auto;
