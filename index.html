@@ -78,6 +78,22 @@
   /></noscript>
   <!-- End Meta Pixel Code -->
 
+  <!-- Dcard Pixel Code -->
+  <script>
+    !function(){
+    var d=function d(a) {
+      for(var e=arguments.length,n=new Array(e>1?e-1:0),i=1;i<e;i++)
+      n[i-1]=arguments[i];
+      d.queue.push([a].concat(n))
+    };
+    d.queue=[],window.dadk=window.dadk||d;
+    var a=document.createElement("script");
+    a.src="undefined"!=typeof URLSearchParams?"https://unpkg.com/@dcard/web-ad-tracking-sdk/build/dadk.iife.js":"https://unpkg.com/@dcard/web-ad-tracking-sdk/build/outdated-dadk.iife.js",
+    document.head.appendChild(a),
+    window.dadk("init", "NUwV5lZYM6AHWDCnqEVGD"), window.dadk("track", "PageView")}();
+    </script>
+    <script>window.dadk('track', 'ViewContent')</script>
+  <!-- End Dcard Pixel Code -->
 
 	</head>
 	<body>
@@ -625,8 +641,7 @@
           <div class="container">
             <!-- Copyright -->
             <div class="footer-copy">
-               讀者服務信箱 | 讀者服務專線：02-2662-0332<br>
-               Copyright © 2024 Cheers快樂工作人 版權所有
+               <a href="https://member.cwg.tw/contact" target="_blank">讀者服務中心</a> | Copyright © 2024 Cheers快樂工作人 版權所有
             </div>
           </div>
         </footer>
